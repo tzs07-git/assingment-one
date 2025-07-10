@@ -1,0 +1,64 @@
+/* font added */
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* matching style */
+
+.btn-primary{
+    background-color: #4E47FF;
+    color: #ffff;
+    padding: 12px 36px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+/* banner section style */
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    align-items: center;
+}
+
+.navber h2{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: black;
+}
+
+.header-section{
+    background-image: url(Assets/Hero-bg.png);
+    width: 1440px;
+    height: 698px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.header-title{
+    /* align-items: center; */
+    text-align: center;
+    padding: 150px 267px 150px;
+}
+
+.header-title h1{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
