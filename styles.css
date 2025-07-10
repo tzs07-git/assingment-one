@@ -247,25 +247,82 @@
     margin: 10px 0px;
 }
 
-.users-feedback-card .card3 .card1img{
+.users-feedback-card .card3 .card3img{
     display: flex;
     align-items: center;
     gap: 20px;
     margin-top: 20px;
 }
 
-.users-feedback-card .card3 .card1img img{
+.users-feedback-card .card3 .card3img img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
 
-.users-feedback-card .card3 .card1img h5{
+.users-feedback-card .card3 .card3img h5{
     color: #4f4e4e;
     font-size: 16px;
 }
 
-.users-feedback-card .card3 .card1img h6{
+.users-feedback-card .card3 .card3img h6{
     color: #928f8f;
     font-size: 14px;
 }
+
+/* form section styles */
+
+.form-section{
+    width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #eaeaed;
+    border-radius: 10px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+.form-section .form-title h1{
+    font-size: 97px;
+    font-weight: bold;
+    padding: 200px 0px;
+    width: 524px;
+    height: 232px;
+}
+
+.form-section .form-input{
+    /* display: block; */
+    padding: 71px 0px;
+    margin: auto;
+    width: 496px;
+    height: 490px;
+}
+
+.form-section .form-input input[type="text"] , input[type="email"],textarea{
+    height: 64px;
+    border: 1px solid #928f8f;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    /* gap: 60px; */
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.form-section .form-input .btn-primary1{
+    background-color: #4E47FF;
+    color: #ffff;
+    padding: 12px 36px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+
+}
+
