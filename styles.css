@@ -326,3 +326,37 @@
 
 }
 
+/* footer section style */
+
+.footer-section{
+    width: 1440px;
+    height: 428px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* border: 1px solid rebeccapurple; */
+    padding: 104px 374px;
+}
+
+.footer-section .footer-title h1{
+
+    font-size: 100px;
+    font-weight: black;
+    color: #4E47FF;
+}
+
+.footer-section .footer-title p{
+    font-size: 14px;
+    color: #928f8f;
+    margin-bottom: 30px;
+}
+.footer-section ul{
+    list-style: none;
+}
+
+.footer-section .footer-list ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: #4f4e4e;
+}
