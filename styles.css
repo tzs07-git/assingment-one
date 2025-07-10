@@ -62,3 +62,210 @@
     font-weight: bold;
     margin-bottom: 30px;
 }
+
+/* action section styless */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rebeccapurple; */
+    width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.action .action-title{
+    padding:62px 0;
+    /* gap: auto; */
+    width: 517px;
+    height: 200px;
+
+}
+
+.action .action-title h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.action .action-title p{
+    color:#4f4e4e;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.action .action-img img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+
+/* productive style */
+
+.productive{
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #eaeaed;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.productive .productive-title h1{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    padding-top:50px ;
+}
+
+.productive .productive-info{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.productive .productive-info h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.productive .productive-info p{
+    font-size: 20px;
+    color: #4f4e4e;
+}
+
+
+/* users feedback section */
+
+.users-feedback{
+    /* border: 1px solid rebeccapurple; */
+    width: 1140px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.users-feedback-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.users-feedback-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* card1 */
+.users-feedback-card .card1{
+    width: 336px;
+    height: 243px;
+    background-color: #ffffff;
+    border: 1px solid rgb(224, 222, 222);
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.users-feedback-card .card1 h3{
+    margin: 10px 0px;
+}
+
+.users-feedback-card .card1 .card1img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.users-feedback-card .card1 .card1img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.users-feedback-card .card1 .card1img h5{
+    color: #4f4e4e;
+    font-size: 16px;
+}
+
+.users-feedback-card .card1 .card1img h6{
+    color: #928f8f;
+    font-size: 14px;
+}
+
+/* card2 */
+.users-feedback-card .card2{
+    width: 336px;
+    height: 243px;
+    background-color: #ffffff;
+    border: 1px solid rgb(224, 222, 222);
+    padding: 24px;
+    border-radius: 10px;
+}
+.users-feedback-card .card2 h3{
+    margin: 10px 0px;
+}
+.users-feedback-card .card2 .card1img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.users-feedback-card .card2 .card1img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.users-feedback-card .card2 .card1img h5{
+    color: #4f4e4e;
+    font-size: 16px;
+}
+
+.users-feedback-card .card2 .card1img h6{
+    color: #928f8f;
+    font-size: 14px;
+}
+
+/* card3 */
+.users-feedback-card .card3{
+     width: 336px;
+    height: 243px;
+    background-color: #ffffff;
+    border: 1px solid rgb(224, 222, 222);
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.users-feedback-card .card3 h3{
+    margin: 10px 0px;
+}
+
+.users-feedback-card .card3 .card1img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.users-feedback-card .card3 .card1img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.users-feedback-card .card3 .card1img h5{
+    color: #4f4e4e;
+    font-size: 16px;
+}
+
+.users-feedback-card .card3 .card1img h6{
+    color: #928f8f;
+    font-size: 14px;
+}
